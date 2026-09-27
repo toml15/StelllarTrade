@@ -1,0 +1,24 @@
+{
+  "name": "@stellartrade/server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/server.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@stellartrade/shared": "*",
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/ws": "^8.5.14",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  }
+}
